@@ -1,0 +1,79 @@
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+form{
+    margin: 5% 0;
+}
+
+form label, legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form fieldset{
+    border: 0px;
+}
+
+form .input-padron, textarea, .cont-button{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    height: 40px;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.btnEnviar{
+    padding: 10px 25px;
+    width: 100%;
+    padding: 15px;
+    font-size:  18px;
+    font-weight: bold;
+    background-color: #DC2323;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin: 0 auto;
+    transition: 1s all;
+    cursor: pointer4 v b;
+}
+
+
+
+.btnEnviar:hover{
+    background-color: white;
+    border: 2px solid #DC2323;
+    color: black;
+    transform: scale(1.2);
+}
+
+
+@media screen and (max-width: 600px) {
+    .btnEnviar{
+        font-size:  12px;
+
+    }
+}
+
+.cont-horario{
+    margin: 40px;
+}
+
+
+thead{
+    background-color: #DC2323;
+    color: white;
+    font-size: 12px;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+    font-size: 15px;
+}
